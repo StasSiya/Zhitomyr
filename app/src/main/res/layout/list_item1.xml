@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item1"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/title_en"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        tools:text="Sergiy Korolyov Astronautics Museum"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/image"/>
+
+    <ImageView
+        android:id="@+id/ic_play_arrow_24dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/title_en"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!--!<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_en"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            tools:text="Museum/Музей"/>
+
+        <!-  <TextView
+             android:id="@+id/title_ru"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:paddingLeft="16dp"
+             android:gravity="top"
+             android:textAppearance="?android:textAppearanceMedium"
+             android:textColor="@android:color/black"
+             tools:text="Музей" /> -->
+
+        <ImageView
+        android:id="@+id/ic_play_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/title_en"
+            android:paddingLeft="100dp"
+            android:paddingTop="24dp"/>
+
+
+
+
+</RelativeLayout>

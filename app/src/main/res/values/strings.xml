@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zhytomyr</string>
+    <string name="welcome">Welcome to Zhytomyr</string>
+    <string name="sights">Sightseeing</string>
+    <string name="food_drinks">Food and Drinks</string>
+    <string name="accommodation">Accommodation</string>
+
+</resources>
